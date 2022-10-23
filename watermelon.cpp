@@ -12,6 +12,6 @@ int main()
 		cout<<"Yes";
 	}
 	else
-		cout<<"No";
+	    cout<<"No";
 
 }
