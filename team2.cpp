@@ -14,17 +14,14 @@ int main()
 	int* arr[n];
 	for(int i=0;i<n;i++){
 		arr[i]=new int[3];
-		cout<<"hk ";
 		for(int j=0;j<3;j++){
             cin>>arr[i][j];
-        	cout<<"ch ";
         }       
 	}
-	cout<<"st";
 	for(int h=0;h<n;h++){
 		int temp=0;
 		for(int j=0;j<n;j++){
-            while(arr[h][j]==1){
+            if(arr[h][j]==1){
             	temp+=1;
             }
         }
@@ -36,4 +33,4 @@ int main()
 	
 
 	return 0;
-} 
+}
