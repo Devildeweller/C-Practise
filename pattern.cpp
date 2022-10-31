@@ -12,7 +12,7 @@ int main()
     for(int i=0;i<n;n--){
         for(int r=start;r<=end;r++){
             for (int j=start;j<=end;j++){
-                if(r == start  r== end  
+                if(r == start ||  r== end ||  
                     j==start || j==end)
                     arr[r][j]=n;
             }
