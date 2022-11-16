@@ -16,11 +16,11 @@ using namespace std;
 // unsigned int getFirstSetBitPos(int n){
 //         return log2(n & -n) + 1;
 // }
-bool checkbit(int n,int k)
+bool checkbit(int n,int k1)
 {
     for (int i = 31; i >= 0; i--) {
         int k = n >> i;
-        if ((k & 1) && (i==31-(k-1)) )
+        if ((k & 1) && (i==k1) )
             return true;
     }
     return false;
